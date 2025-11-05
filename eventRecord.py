@@ -7,9 +7,9 @@ import csv
 import pandas as pd
 import re
 
-BASE_URL = "https://demo.openspecimen.org"
-USERNAME = "amol@krishagni.com"
-PASSWORD = "Login@123"
+BASE_URL = "<>"  // Enter Application URL
+USERNAME = "<>"  // Enter Username 
+PASSWORD = "<>" // Enter password
 
 def get_token():
     url = f"{BASE_URL}/rest/ng/sessions"
