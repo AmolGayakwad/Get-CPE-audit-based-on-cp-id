@@ -13,7 +13,7 @@ This script performs the following tasks:
 - Downloads the ZIP file containing audit data for each event.
 - Extracts and processes the CSV file(s) inside the ZIP.
 - Transforms the audit logs into a **CSV**, including:
-  - Mapping `clinicalDiagnosis` and `clinicalStatus` IDs to their actual values.   
+  - Mapping clinicalDiagnosis and clinicalStatus IDs to their actual values.   
   - Adding **Event ID** and **Event Label** after the operation for clarity.  
 - Merges all event CSVs into a single CSV for the CP.
 
@@ -22,8 +22,8 @@ The final CSV provides a complete history of modifications for each event in the
 ## Requirements
 
 - Python 3.x
-- `requests` module
-- `pandas` module
+- requests module
+- pandas module
 
 You can install dependencies using pip:
 pip install requests pandas
@@ -34,7 +34,9 @@ pip install requests pandas
 2. Open a terminal and navigate to the folder containing the script.
 3. Run the script:
     python3 event_audit.py
+   
     When prompted, enter:
+   
        - Collection Protocol ID
        - The script will generate a merged CSV in the same folder:
 
