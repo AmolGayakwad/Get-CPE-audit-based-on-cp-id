@@ -2,8 +2,6 @@
 
 This script exports audit logs for all events of a Collection Protocol in OpenSpecimen using the REST API. It downloads the audit logs as ZIP files for each CP event and generates a detailed CSV report.
 
----
-
 ## Introduction
 
 This script performs the following tasks:
@@ -21,8 +19,6 @@ This script performs the following tasks:
 
 The final CSV provides a complete history of modifications for each event in the CP, with readable field values.
 
----
-
 ## Requirements
 
 - Python 3.x
@@ -30,8 +26,6 @@ The final CSV provides a complete history of modifications for each event in the
 - `pandas` module
 
 You can install dependencies using pip:
-
-```bash
 pip install requests pandas
 
 ## How to Run
