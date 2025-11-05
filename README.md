@@ -33,13 +33,11 @@ pip install requests pandas
 1. Download or save the script event_audit.py to your system.
 2. Open a terminal and navigate to the folder containing the script.
 3. Run the script:
-    python3 event_audit.py
+   python3 event_audit.py
    
-    When prompted, enter:
-   
-       - Collection Protocol ID
-       - The script will generate a merged CSV in the same folder:
-
+      Enter Input:
+      
+      - Collection Protocol ID
 
 ## What I Learned
 
